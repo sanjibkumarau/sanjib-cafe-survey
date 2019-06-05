@@ -12,7 +12,12 @@
 <div id="wrapper">
   <h1 class="text-center"> Sanjib cafe restaurant survey </h1>
 
-  <form action="#" method="post">
+  <div id="thank">
+    <h2>Thank you so much for completing our survey. We will get back to you soon</h2>
+    <p><button class="btn btn-info">Add another Survey</button></p>
+  </div>
+
+  <form action="#" method="post" class="d-block">
     <fieldset>
       <legend>User Details</legend>
       <div class="form-group">
@@ -32,52 +37,178 @@
     </fieldset>
     <fieldset>
       <legend>Restaurant appearances</legend>
-      <h2>Did the restaurants appearnce attractive to you</h2>
 
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="appearnce_1" id="ap1-1" value="option1">
-        <label class="form-check-label" for="ap1-1">Needs Improvised</label>
+      <div class="block">
+        <p class="strong">Did the restaurants appearnce attractive to you</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_1" id="ap1-1" value="option1">
+          <label class="form-check-label" for="ap1-1">Needs Improvised</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_1" id="ap1-2" value="option1">
+          <label class="form-check-label" for="ap1-2">Satisfactory</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_1" id="ap1-3" value="option1">
+          <label class="form-check-label" for="ap1-3">Excellent</label>
+        </div>
       </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="appearnce_1" id="ap1-2" value="option1">
-        <label class="form-check-label" for="ap1-2">Satisfactory</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="appearnce_1" id="ap1-3" value="option1">
-        <label class="form-check-label" for="ap1-3">Excellent</label>
+
+      <div class="block">
+        <p class="strong">Did the outside appear to be clean - clear sidewalks, clean windows and doors, etc </p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_2" id="ap2-1" value="option1">
+          <label class="form-check-label" for="ap2-1">Needs Improvised</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_2" id="ap2-2" value="option1">
+          <label class="form-check-label" for="ap2-2">Satisfactory</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_2" id="ap2-3" value="option1">
+          <label class="form-check-label" for="ap2-3">Excellent</label>
+        </div>
       </div>
     </fieldset>
+
+    <fieldset>
+      <legend>Hosting</legend>
+      <div class="block">
+        <p class="strong">Were you promptly greeted by the host/hostess</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_3" id="ap3-1" value="option1">
+          <label class="form-check-label" for="ap3-1">Needs Improvised</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_3" id="ap3-2" value="option1">
+          <label class="form-check-label" for="ap3-2">Satisfactory</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_3" id="ap3-3" value="option1">
+          <label class="form-check-label" for="ap3-3">Excellent</label>
+        </div>
+      </div>
+
+      <div class="block">
+        <p class="strong">Courtesy of stuff </p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_4" id="ap4-1" value="option1">
+          <label class="form-check-label" for="ap4-1">Needs Improvised</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_4" id="ap4-2" value="option1">
+          <label class="form-check-label" for="ap4-2">Satisfactory</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_4" id="ap4-3" value="option1">
+          <label class="form-check-label" for="ap4-3">Excellent</label>
+        </div>
+      </div>
+
+      <div class="block">
+        <p class="strong">Rate Our Staff’s Ability to Meet Your Needs?</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_42" id="ap42-1" value="option1">
+          <label class="form-check-label" for="ap42-1">Needs Improvised</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_42" id="ap42-2" value="option1">
+          <label class="form-check-label" for="ap42-2">Satisfactory</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_42" id="ap42-3" value="option1">
+          <label class="form-check-label" for="ap42-3">Excellent</label>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Food</legend>
+      <div class="block">
+        <p class="strong">Timeliness of food delivery</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_5" id="ap5-1" value="option1">
+          <label class="form-check-label" for="ap5-1">Needs Improvised</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_5" id="ap5-2" value="option1">
+          <label class="form-check-label" for="ap5-2">Satisfactory</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_5" id="ap5-3" value="option1">
+          <label class="form-check-label" for="ap5-3">Excellent</label>
+        </div>
+      </div>
+
+      <div class="block">
+        <p class="strong">Quality of food</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_6" id="ap6-1" value="option1">
+          <label class="form-check-label" for="ap6-1">Needs Improvised</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_6" id="ap6-2" value="option1">
+          <label class="form-check-label" for="ap6-2">Satisfactory</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_6" id="ap6-3" value="option1">
+          <label class="form-check-label" for="ap6-3">Excellent</label>
+        </div>
+      </div>
+
+      <div class="block">
+        <p class="strong">Quantity of food</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_7" id="ap7-1" value="option1">
+          <label class="form-check-label" for="ap7-1">Needs Improvised</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_7" id="ap7-2" value="option1">
+          <label class="form-check-label" for="ap7-2">Satisfactory</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="appearnce_7" id="ap7-3" value="option1">
+          <label class="form-check-label" for="ap7-3">Excellent</label>
+        </div>
+      </div>
+      <div class="block">
+        <p class="strong">Which course of dish you get most expected</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="appearnce_8" id="ap8-1" value="option1">
+          <label class="form-check-label" for="ap8-1">Drinks</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="appearnce_8" id="ap8-2" value="option1">
+          <label class="form-check-label" for="ap8-2">Appetizers</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="appearnce_8" id="ap8-3" value="option1">
+          <label class="form-check-label" for="ap8-3">Salad</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="appearnce_8" id="ap8-4" value="option1">
+          <label class="form-check-label" for="ap8-4">Main Course</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="appearnce_8" id="ap8-5" value="option1">
+          <label class="form-check-label" for="ap8-5">Dessert</label>
+        </div>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Others</legend>
+      <div class="block">
+        <div class="form-group">
+          <label for="suggestion">Having Suggestions for us</label>
+          <textarea name="suggestion" id="" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        
+      </div>
+    </fieldset>
+
+    <button class="btn btn-info" type="submit">Submit Your Survey</button>
   </form>
-
-
-
-
-
-
-
-* Needs improvised
-* Avarage
-* Satisfactory
-* excellent
-
-Did the outside appear to be clean - clear sidewalks, clean windows and doors, etc 
-same as 3
-
-
-Restaurant stuff
-
-Were you promptly greeted by the host/hostess
-Was the greetings friendly and professional
-Courtesy of stuff 
-Timeliness of food delivery
-Quality of food
-Quantity of food 
-Efficiency of setup
-Based on your event, what should be improvised for future events 
-
-was it your first event with us
-
-How Would You Rate Our Staff’s Ability to Meet Your Needs?
 
   
 </div>
